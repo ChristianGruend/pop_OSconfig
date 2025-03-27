@@ -50,4 +50,4 @@ ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.p10k.zsh ~/.p10k.zsh
 - [ ] Terminal Konfiguration dokumentieren
 
 ---
-✍️ Erstellt von [vongustlson](https://github.com/vongustlson)
+✍️ Erstellt von [gustl](https://github.com/ChristianGruend )
