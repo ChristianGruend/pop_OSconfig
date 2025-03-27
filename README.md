@@ -46,7 +46,7 @@ ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.p10k.zsh ~/.p10k.zsh
 
 ## 📝 To-Do
 - [ ] Weitere nützliche Tools hinzufügen
-- [ ] VS Code Konfiguration automatisieren
+- [x] VS Code Konfiguration automatisieren
 - [ ] Terminal Konfiguration dokumentieren
 
 ---
