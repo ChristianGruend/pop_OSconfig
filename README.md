@@ -1,6 +1,6 @@
 # Pop!_OS Konfiguration
 
-Dieses Repository enthält meine personalisierten Konfigurationen für Pop!_OS.
+Dieses Repository enthält meine personalisierten Konfigurationen für Pop!_OS mit automatischer Installation.
 
 ## 📂 Enthaltene Konfigurationen
 - **Zsh & Oh My Zsh**: Anpassungen für eine optimierte Shell-Erfahrung
@@ -9,28 +9,45 @@ Dieses Repository enthält meine personalisierten Konfigurationen für Pop!_OS.
 - **Git**: Globale Konfiguration für effizienteres Arbeiten
 - **VS Code**: User-Settings und Extensions für eine bessere Entwicklungserfahrung
 
-## 🛠️ Einrichtung
-### 1️⃣ Repository klonen
+## 🚀 Schnellstart
+Die einfachste Methode zur Installation:
+
 ```bash
+# Repository klonen
 git clone git@github.com:vongustlson/Pop_OSconfig.git ~/Devops/github/ChristianGruend/Pop_OSconfig
-cd Pop_OSconfig
+cd ~/Devops/github/ChristianGruend/Pop_OSconfig
+
+# Installationsskript ausführen
+chmod +x install_terminal.sh
+./install_terminal.sh
 ```
 
-### 2️⃣ Symlinks für Konfigurationsdateien setzen (optional)
+## 🛠️ Was wird installiert?
+Das Installationsskript richtet automatisch folgendes ein:
+- Tilix Terminal-Emulator
+- Zsh als Standard-Shell
+- Oh My Zsh Framework
+- Powerlevel10k Theme
+- Nützliche Zsh-Plugins:
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+  - zsh-history-substring-search
+  - zsh-autocomplete
+- Optimierte .zshrc und .p10k.zsh Konfigurationen
+
+## 🔄 Manuelle Installation (optional)
+Falls Sie die Konfigurationsdateien manuell verwalten möchten:
+
 ```bash
+# Symlinks für Konfigurationsdateien setzen
 ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.zshrc ~/.zshrc
 ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.p10k.zsh ~/.p10k.zsh
 ```
 
-### 3️⃣ Terminal neustarten und genießen!
-```bash
-exec zsh
-```
-
 ## 📝 To-Do
 - [ ] Weitere nützliche Tools hinzufügen
-- [ ] Automatische Installationsskripte schreiben
-- [ ] Terminal Konfiguration Dokumentieren
+- [ ] VS Code Konfiguration automatisieren
+- [ ] Terminal Konfiguration dokumentieren
 
 ---
 ✍️ Erstellt von [vongustlson](https://github.com/vongustlson)
