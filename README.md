@@ -14,8 +14,8 @@ Die einfachste Methode zur Installation:
 
 ```bash
 # Repository klonen
-git clone git@github.com:vongustlson/Pop_OSconfig.git ~/Devops/github/ChristianGruend/Pop_OSconfig
-cd ~/Devops/github/ChristianGruend/Pop_OSconfig
+git clone git@github.com:vongustlson/Pop_OSconfig.git <Pfad_zum_Repository>/Pop_OSconfig
+cd <Pfad_zum_Repository>/Pop_OSconfig
 
 # Installationsskript ausführen
 chmod +x install_terminal.sh
