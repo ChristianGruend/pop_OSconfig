@@ -38,13 +38,17 @@ Das Installationsskript richtet automatisch folgendes ein:
 ## 🔄 Manuelle Installation (optional)
 Falls Sie die Konfigurationsdateien manuell verwalten möchten:
 
+## 🔄 Manuelle Installation (optional)
+Falls Sie die Konfigurationsdateien aus einem bestimmten Grund manuell verwalten möchten (z. B. zur Anpassung oder Fehlersuche), können Sie die Symlinks wie folgt setzen:
+
 ```bash
 # Symlinks für Konfigurationsdateien setzen
-ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.zshrc ~/.zshrc
-ln -s ~/Devops/github/ChristianGruend/Pop_OSconfig/.p10k.zsh ~/.p10k.zsh
-```
+ln -s <Pfad_zum_Repository>/.zshrc ~/.zshrc
+ln -s <Pfad_zum_Repository>/.p10k.zsh ~/.p10k.zsh
 
-## 📝 To-Do
+# 📝 To-Do
+- [ ] Meso (od. Hack) Nerd Font aufnehmen
+- [ ] Zsh und Tilix Systemweit als Standard setzen 
 - [ ] Weitere nützliche Tools hinzufügen
 - [x] VS Code Konfiguration automatisieren
 - [x] Terminal Konfiguration dokumentieren
